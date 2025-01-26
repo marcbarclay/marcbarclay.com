@@ -1,0 +1,31 @@
+
+body {
+    max-width: 700px;
+    margin: 32px auto;
+    padding: 0 10px;
+    font: 18px/1.5;
+    font-family: sans-serif;
+    color: #333333;
+    background-color: #eeeeff;
+    line-height: 2;
+}
+
+h1,h2,h3 {
+    line-height: 1.2;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #c9d1d9;
+        background: #0d1117
+    }
+
+    a:link {
+        color: #58a6ff
+    }
+
+    a:visited {
+        color: #8e96f0
+    }
+}
+
